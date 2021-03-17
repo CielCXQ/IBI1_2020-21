@@ -1,2 +1,25 @@
+<<<<<<< HEAD
+I like tea
+I like moon very
+=======
+I don't like tea
+I like sun
+I like moon
+>>>>>>> Alex
+I like chocolate biscuits
+I like snow
+I like winter
+I like summer
+<<<<<<< HEAD
+I like water
+I like fall
+I like spring
+I like noodle
+=======
+I like apple
+I like banana
+I like wind
+I like pond
+I like floor
 
-I like 2
+>>>>>>> Alex
