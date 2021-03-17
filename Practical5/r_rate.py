@@ -1,11 +1,8 @@
-#the start number
-#n=84 r=1.2
-# round  five times
-#for x in range(1,5)
-#n=n*r
 
+#define the  start number
 n=84
 r=1.2
+# round  five time
 for x in range(0,5):
   n=n*r
 
