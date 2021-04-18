@@ -1,6 +1,5 @@
 # What does this piece of code do?
-# Answer: output a integer which is greater than 1 and less than or equal to 50  
-
+# Answer:Selects a random number between 1 and 100. When the number is less than 50, stop selection and print the number
 # Import libraries
 # randint allows drawing a random number, 
 # e.g. randint(1,5) draws a number between 1 and 5

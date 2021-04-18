@@ -9,9 +9,9 @@ print('d=',d)
 print("e=",e)
 #compare
 if d < e :
-  print "d smaller than e"
+  print("d smaller than e")
 else:
-  print "e smaller than d"
+  print("e smaller than d")
 
 #input 
 X=True 
