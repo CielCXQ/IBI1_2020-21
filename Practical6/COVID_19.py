@@ -1,5 +1,6 @@
 #     Make a dictionary for the table
 dict = {'USA':29862124, 'India': 11285561, 'Brazil':11205972, 'Russia':4360823, 'UK': 4234924}
+print(dict)
 #     Make a pie chart for the table
 import matplotlib.pyplot as plt 
 #     Pie chat, where the slices will be ordered and plotted counter-clockwis
@@ -12,6 +13,7 @@ colors =['gold', 'yellow', 'green', 'red', 'blue']
 #     specifies the fraction of the radius with which to offset each wedge
 plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 autopct='%1.1f%%', shadow=False, startangle=90)
-plt.axis('equal')
+plt.title("The proportion of coronavirus infection in five countries")
 #     equal aspect ratio ensures that pie is drawn as a circle
+plt.axis('equal')
 plt.show()
