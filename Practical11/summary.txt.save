@@ -1,0 +1,6 @@
+My summary of Implementation of a sequence comparison program in Python
+huamn Vs mouse: the alignment is 1091, there are 89.64% of acids are identical;
+human Vs ramdon:the alignment is -250, there are 5.41% of acids are identical;
+mouse Vs ramdon:the alignment is -250, there are 5.86% of acids are identical.
+
+For the alignment, the higher the similarity of the two sequences, the higher the value. By comparing with the random sequence, we found that the similarity of SOD2 of human and mouse is much higher than that of the random sequence.There is an evolutionary correlation between SOD2 in human and mouse. It is possible that this gene in human was present at the evolutionary stage of mouse.Also, the high ratio of identical proteins of human and mouse genes which corroborates our view.

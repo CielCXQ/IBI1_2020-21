@@ -1,0 +1,4 @@
+My summary of Implementation of a sequence comparison program in Python
+huamn Vs mouse: the alignment is 1091, there are 89.64% of acids are identical;
+human Vs ramdon:the alignment is -250, there are 5.41% of acids are identical;
+mouse Vs ramdon:the alignment is -250, there are 5.86% of acids are identical.
