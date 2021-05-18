@@ -9,7 +9,7 @@ class grades:
 S1=grades('CXX',90,88,68)
 #calculate the grades
 #An examole
-final_grade1 = int(S1.y*0.4+S1.z*0.3+S1.w*0.3)
+final_grade1 = S1.y*0.4+S1.z*0.3+S1.w*0.3
 #input
 print('Here is a example：name is CXX，code_portfolio is 90，poster_presentation is 88 and final_exam is 68，Final grade of '+S1.x + ' is '+ str(final_grade1))
 a=input('Please input the name :')

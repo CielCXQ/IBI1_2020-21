@@ -1,7 +1,7 @@
 #Task 1
 def task_1(DNA):
 #A dictiory
-    complementary = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G','a':'t','t':'a','g':'c','c':'g'}
+    complementary = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G','a':'T','t':'A','g':'C','c':'G'}
     letters = list(DNA)
 #convert it to the reverse complement
     letters = [complementary[base] for base in letters]
