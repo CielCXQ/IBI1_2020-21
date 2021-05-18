@@ -1,4 +1,13 @@
 My summary of Implementation of a sequence comparison program in Python
-huamn Vs mouse: the alignment is 1091, there are 89.64% of acids are identical;
-human Vs ramdon:the alignment is -250, there are 5.41% of acids are identical;
-mouse Vs ramdon:the alignment is -250, there are 5.86% of acids are identical.
+/result/
+huamn Vs mouse:  the alignment is 1091, there are 89.64% of acids are identical;
+human Vs ramdon: the alignment is -250, there are 5.41% of acids are identical;
+mouse Vs ramdon: the alignment is -250, there are 5.86% of acids are identical.
+/steps/
+I searched for a dictionary online, but since it was only half of it, I wrote some code to improve it. Then amino acids were compared one by one.
+/Interpretation/
+A higher score in the matrix means a higher degree of similarity.
+The score of human_mouse sequence comparison is large, and the score of human/mouse_random sequence comparison is small. Since we use the human/mouse_random sequence comparison as control groups, it indicates that human and mouse sequence have a high degree of similarity. This result is also consistent with ratio of identical acids.
+
+From the evolutionary point of view, we can speculate that these two sequences have the same origin.
+From a biological point of view, we can speculate that this sequence which is evolutionarily conserved may be a housekeeping gene.
