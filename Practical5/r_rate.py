@@ -5,4 +5,5 @@ r=1.2
 for x in range(0,5):
   n=n*r+n
 
-print("When the r rate is " + str(r) + ", the totol number of individuals infected after 5 generations is " + str(int(n)))
+print("When the r rate is " + str(r) + ", the total number of individuals infected after 5 generations is " + str(int(n)))
+
