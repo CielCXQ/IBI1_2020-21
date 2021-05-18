@@ -7,8 +7,8 @@ os.chdir("/Users/chenxuqi/IBI1_2020-21/Practical7")
 #import the data
 covid_data = pd.read_csv("full_data.csv")
 
-#try to show something
-covid_data.info()
+#try to show something （0-10）
+print(covid_data.iloc[0:11,0:])
 
 print("the list for Afghanistan")
 #to get the location of afghanistan
@@ -21,7 +21,7 @@ for i  in covid_data.iloc[0:,1]:
   else:
     row.append(False)
 #get the total cases of Afghanistan
-covid_data.loc[row,"total_cases"]
+print(covid_data.loc[row,"total_cases"])
 
 #import the data
 covid_data = pd.read_csv("full_data.csv")
@@ -34,6 +34,7 @@ for i in covid_data.iloc[0:, 1]:
 #create a new object for world_new_cases
 my_column = [True, False, True, False, False, False]
 world_new_cases = covid_data.iloc[row, my_column]
+world_new_deaths=covid_data.loc[row,"new_deaths"]
 #compute mean and the median
 import numpy as np
 mean=np.mean(world_new_cases.iloc[0:,1])
@@ -58,15 +59,35 @@ plt.boxplot(new_cases,
   notch = False,
   meanline = True,
     )
+plt.xlabel('world_dates')
+plt.ylabel('world_new_cases')
 plt.title("A boxplot of new cases worldwide")
+plt.show()
+score = world_new_deaths
+plt.boxplot(score,
+             vert = True,
+             whis = 1.5,
+             patch_artist = True,
+             meanline = False,
+             showbox = True,
+             showcaps = True,
+             showfliers = True,
+             notch = False
+             )
+plt.xlabel('world_dates')
+plt.ylabel('world_new_deaths')
+plt.title("A boxplot of new deaths worldwide")
 plt.show()
 
 #plot the data over time
 world_dates = world_new_cases.iloc[0:, 0]
 plt.plot(world_dates,new_cases , 'b+')
 plt.title("A plot for dates and newcases")
+plt.xlabel('world_dates')
+plt.ylabel('new_cases')
 plt.xticks(world_dates.iloc[0:len(world_dates):4],rotation=-90)
 plt.show()
+
 
 
 #answer question what proportion of cases have died in Germany and UK
